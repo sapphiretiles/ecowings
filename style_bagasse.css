@@ -22,11 +22,11 @@ p.footernew {font-size: 13px; font-family: 'Montserrat', sans-serif; letter-spac
 }
 
 .borderDESC {border-style: solid; border-width: 0px 1px 1px 1px; border-color: #eee;}
-.fontDESC {color: #756c6c; font-size: 11px; font-family: 'Montserrat', sans-serif; letter-spacing: 1px;}
-.fontDESCmiddle {color: #000; font-size: 14px; font-family: 'Arial', sans-serif; letter-spacing: 1px; line-height: 1.5;}
+.fontDESC {color: #756c6c; font-size: 14px; font-family: 'Montserrat', sans-serif; letter-spacing: 1.5px; line-height: 1.6;}
+.fontDESCmiddle {color: #000; font-size: 14px; font-family: 'Montserrat', sans-serif; letter-spacing: 1.5px; line-height: 1;}
 .padding20 {padding: 20px;}
 .topfontDESC {color: white;}
-.MIDdescription{width:100%; margin: 0 auto; margin-top:0px; margin-bottom:1%;}
+.MIDdescription{width:100%; margin: 0 auto; margin-top:50px; margin-bottom:4%;}
 .descriptionWIDTH{width:55%; padding: 25px; margin: 0 auto; }
 
 .descriptionWIDTHrightMenu{width:80%; padding: 25px; margin: 0 auto; }
@@ -44,11 +44,11 @@ p.footernew {font-size: 13px; font-family: 'Montserrat', sans-serif; letter-spac
 .TOPright{float:right;}
 
 .TOPmsgL{float:left;}
-.TOPmsgR{float:right; padding-top:15px; color:}
+.TOPmsgR{float:right; color:}
 
 
-.assistance{width: 200px; padding-top:15px; height: 80px; color: #9a9a9a !important;}
-.material-icons.md-40 { font-size: 40px; padding-top:15px; color:#fff;}
+.assistance{width: 200px; height: 80px; color: #9a9a9a !important;}
+.material-icons.md-40 { font-size: 40px; color:#fff;}
 .material-icons.md-20 { font-size: 20px; color:#fff;}
 
 
@@ -71,7 +71,7 @@ a.SENDmsg:hover {font-size:110%; text-decoration:underline;}
   padding: 20px;
   height: 70px; /* Should be removed. Only for demonstration */
   background-color: #484848;
-  font-size: 16px; 
+  font-size: 12px; 
   color: white;
   text-align: center;
 }
@@ -81,8 +81,8 @@ a.SENDmsg:hover {font-size:110%; text-decoration:underline;}
   width: 100%;
   padding: 1px;
   height: 45px; /* Should be removed. Only for demonstration */
-  background-color: #252525;
-  font-family: 'Open Sans', sans-serif; font-size: 12px; color: blue;
+  background-color: #e8e8e8;
+  font-family: 'Open Sans', sans-serif; font-size: 12px; color: white;
   text-align: center;
 }
 
@@ -215,7 +215,7 @@ cursor: default;
 }
 .nav a.active { background-color: #0099ef; } .nav a:hover { background-color: #0099ef; }
 .menuICON{color: #616161;  margin:0px 15px 0px 18px;}
-.navUNDERcolor{color: antiquewhite;}
+.navUNDERcolor{color: #616161;}
 .margin_left{margin_left: 50%;}
 
 @media screen and (min-width: 600px) {
@@ -290,39 +290,7 @@ margin: 0 auto;
 .slider input[name="photo_change"] ~ .img-details{opacity:0;display:none}
 .slider input[name="photo_change"]:checked + label + .img-details{opacity:1;display:block;transform:scale(1)}
 .slider #id1 + label + .img-details{opacity:1;display:block;transform:scale(1)}
-@media(min-width: 1300px) {
-.slider{padding-top:550px;width:100%;position:relative}
-.slider .img-details,.slider .img-details img{max-height:600px;border-radius: 15px;}
-.slider label{margin-right:12px}
-.slider span{width:66px;height:66px}
-.slider label img{max-height:64px}
 
-}
-
-@media(max-width: 1299px) {
-.slider{padding-top:580px;width:100%;position:relative}
-.slider .img-details,.slider .img-details img{max-height:600px;border-radius: 15px;}
-.slider label{margin-right:12px}
-.slider span{width:66px;height:66px}
-.slider label img{max-height:64px}
-
-}
-@media(max-width: 1171px) {
-.slider{padding-top:580px;width:100%;position:relative}
-.slider .img-details,.slider .img-details img{max-height:600px;border-radius: 15px;}
-.slider label{margin-right:12px}
-.slider span{width:66px;height:66px}
-.slider label img{max-height:64px}
-
-}
-@media(max-width: 1000px) {
-.slider{padding-top:530px;width:100%;position:relative}
-.slider .img-details,.slider .img-details img{max-height:600px;border-radius: 15px;}
-.slider label{margin-right:12px}
-.slider span{width:66px;height:66px}
-.slider label img{max-height:64px}
-
-}
 @media(max-width: 767px) {
 .slider{padding-top:620px;width:100%;position:relative}
 .slider .img-details,.slider .img-details img{max-height:600px;border-radius: 15px;}
@@ -642,8 +610,8 @@ h5:before {
 
 }
 .tab__content {
-text-align:justify;
-  padding: 10px 10px;
+text-align: center;
+  padding: 10px 25px;
   background-color: transparent;
   position: absolute;
   width: 100%;
@@ -657,10 +625,10 @@ text-align:justify;
   background-color: #e8e8e8;
 }
 .tab__content div {
-    width: 90%;
-    padding-top: 5px;
+    width: 60%;
+    padding-top: 50px;
 	margin: auto;
-	line-height: 2.1;
+	line-height: 2.8;
 }
 @media only screen and (max-width: 600px) {
     .tab__content div {
@@ -758,7 +726,7 @@ font-size: 8px;
 .desc_columns__middle {
     float: left;
     width: 100%;
-    padding: 20px, 20px, 20px, 0px;
+    padding: 20px;
 }
 .descriptionInfo {
     display: block;
@@ -798,7 +766,7 @@ font-size: 8px;
 .menuICONprice{color: #fff; margin:0px 8px 0px 0px;}
 
 .priceSize {
-    font-size: 25px;
+    font-size: 45px;
 	line-height: normal;
 }
 .priceLine {
@@ -870,8 +838,8 @@ margin: 1px;
   color: black;
 }
 .boxedText {
-    
-    text-align: left;
+    display: inline-block;
+    text-align: center;
     padding: 5px;
 	margin: 5px;
 	clear: both;

@@ -23,7 +23,7 @@ p.footernew {font-size: 13px; font-family: 'Montserrat', sans-serif; letter-spac
 
 .borderDESC {border-style: solid; border-width: 0px 1px 1px 1px; border-color: #eee;}
 .fontDESC {color: #756c6c; font-size: 14px; font-family: 'Montserrat', sans-serif; letter-spacing: 1.5px; line-height: 1.6;}
-.fontDESCmiddle {color: #000; font-size: 14px; font-family: 'Montserrat', sans-serif; letter-spacing: 1.5px; line-height: 1;}
+.fontDESCmiddle {color: #000; font-size: 14px; font-family: 'Arial', sans-serif; letter-spacing: 1.5px; line-height: 1;}
 .padding20 {padding: 20px;}
 .topfontDESC {color: white;}
 .MIDdescription{width:100%; margin: 0 auto; margin-top:50px; margin-bottom:4%;}

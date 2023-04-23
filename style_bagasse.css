@@ -30,7 +30,7 @@ p.footernew {font-size: 13px; font-family: 'Montserrat', sans-serif; letter-spac
 .descriptionWIDTH{width:55%; padding: 25px; margin: 0 auto; }
 
 .descriptionWIDTHrightMenu{width:80%; padding: 25px; margin: 0 auto; }
-
+.bolded {font-weight: bold;}
 
 /* END DESCRIPTION SECTION */
 
